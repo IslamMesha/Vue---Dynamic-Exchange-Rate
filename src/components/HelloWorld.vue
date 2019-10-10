@@ -84,24 +84,6 @@ export default {
       let to_currency = document.getElementById("to_currency").value;
       let from_currency = document.getElementById("from_currency").value;
       this.filterExchangeRates(from_currency, to_currency);
-
-      // let rates = [];
-      // let id = event.target.id;
-      // if (id == "from_currency") {
-      // this.filterExchangeRates();
-      // this.exchangeRates.forEach(rate => {
-      // if (rate.from_currency == event.target.value) {
-      // rates.push(rate);
-      // }
-      // });
-      // } else {
-      // this.exchangeRates.forEach(rate => {
-      // if (rate.to_currency == event.target.value) {
-      // rates.push(rate);
-      // }
-      // });
-      // }
-      // this.exchangeRates = rates;
     },
     filterExchangeRates(from_currency, to_currency) {
       let exchangeRates = [];
